@@ -8,10 +8,7 @@ A modern test case management system built with Flask and Vue 3, supporting Exce
 
 ## Project Features
 ### project img
-![img.png](img.png)
-![img_1.png](img_1.png)
-![img_2.png](img_2.png)
-![img_4.png](img_4.png)
+
 
 ### Core Functionality
 - Project Management: Create, edit, and delete projects with descriptions and maintainer information
@@ -483,51 +480,3 @@ QWEN_MODEL=qwen-turbo
 3. Commit changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-## Changelog
-
-### V1.0.4 (2025-08-29)
-- ✅ Added AI test case generation strategy group JSON recognition
-- ✅ Added test case requirement analysis feature point rule matching
-- ✅ Enhanced test case upload partial recognition logic
-- ✅ Added system settings, all model configurations will no longer be hardcoded in code, changed to configuration
-- ✅ Fixed AutoAgent framework warning when unable to calculate prices for certain models
-
-### V1.0.3 (2025-08-22)
-- ✅  Manual test case addition functionality
-- ✅  Execution logs
-
-### V1.0.2 (2025-08-12)
-- ✅ Optimized AI test case generation user experience
-- ✅ Fixed issue where file selection clears generation summary
-- ✅ Fixed test case type display issues
-- ✅ Optimized download center popup title styling
-- ✅ Improved error handling and user prompts
-
-### V1.0.1 (2025-08-10)
-- ✅ AI generation capabilities (fully developed) integrated into test case platform
-- ✅ Real-time display of generated test case summary data
-- ✅ Support for multiple test types (Functional Testing, API Testing, UI Automation Testing)
-- ✅ Intelligent document parsing and test case generation
-- ✅ Generation history records and statistics
-
-### v1.0.0 (2025-08-01)
-- Basic project management functionality
-- Excel file upload and parsing
-- Test case batch import
-- Duplicate data detection and handling
-- Responsive web interface
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
-
-## Contact
-
-For issues or suggestions, please contact through the following channels:
-- Project Issues: [GitHub Issues](https://github.com/AarnWang/testcase-manager/issues)
-- Email: maz9366@163.com
-
----
-
-Note: Ensure to modify default database passwords and other sensitive configuration information in production environments.

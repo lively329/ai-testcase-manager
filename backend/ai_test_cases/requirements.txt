@@ -1,0 +1,47 @@
+# Core dependencies
+python-dotenv>=1.0.0
+autogen
+openai>=1.0.0  # 添加 OpenAI 依赖
+asyncio>=3.4.3
+pydantic>=2.4.2
+fastapi>=0.104.0
+uvicorn>=0.23.2
+browser_use==0.1.45
+playwright
+
+# Document processing
+python-docx>=0.8.11
+PyPDF2>=3.0.1
+markdown>=3.4.3
+pandas>=2.1.1
+openpyxl>=3.1.2
+python-multipart>=0.0.6
+aiofiles>=23.2.1
+
+# Type hints and utilities
+typing>=3.7.4.3
+tenacity>=8.2.3
+numpy>=1.24.3
+matplotlib
+
+# Testing
+pytest>=7.4.2
+pytest-asyncio>=0.21.1
+pytest-cov>=4.1.0
+
+# Development tools
+black>=23.7.0
+isort>=5.12.0
+flake8>=6.1.0
+
+# case manager
+flask
+flask-cors
+flask-mysqldb
+werkzeug
+
+# Additional dependencies found in code
+mysql-connector-python>=8.0.0  # 用于mysql.connector
+langchain-openai>=0.1.0  # 用于langchain_openai
+requests>=2.31.0  # 用于HTTP请求
+

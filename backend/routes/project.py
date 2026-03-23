@@ -8,8 +8,11 @@ project_bp = Blueprint('project', __name__)
 def get_projects():
     """获取所有项目列表"""
     try:
+        print(0)
         cur = mysql.connection.cursor()
+        print(1)
         cur.execute("SELECT id, name, description, maintainers FROM projects ORDER BY id ASC")
+        print(2)
         projects = cur.fetchall()
         cur.close()
         return jsonify({'projects': projects})
