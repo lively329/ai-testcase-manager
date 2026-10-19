@@ -1,5 +1,7 @@
 # Test Case Management System
 
+Last maintained: 2026-10-19
+
 [中文版](README_zh.md)
 
 A modern test case management system built with Flask and Vue 3, supporting Excel file batch upload, project management, test case viewing, and AI-powered intelligent generation functionalities.
